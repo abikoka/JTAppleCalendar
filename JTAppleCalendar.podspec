@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "JTAppleCalendar"
-  s.version          = "7.1.7"
+  s.version          = "7.1.7.1"
   s.summary          = "The Unofficial Swift Apple Calendar Library. View. Control. for iOS & tvOS"
   s.description      = <<-DESC
 A highly configurable Apple calendar control. Contains features like boundary dates, month and week view. Very light weight.
@@ -18,4 +18,6 @@ A highly configurable Apple calendar control. Contains features like boundary da
   s.tvos.deployment_target = '9.0'
 
   s.source_files = 'Sources/*.swift'
+
+  s.resources = ['Sources/PrivacyInfo.xcprivacy']
 end
